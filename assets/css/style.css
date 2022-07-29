@@ -61,21 +61,37 @@ header {
 }
 
 main {
-    background: red;
     height: auto;
 }
 
 aside {
     width: 200px;
-    background: green;
 }
 
 .content {
     width: 950px;
-    background: gold;
 }
 
 main > .container {
     align-items: start;
     padding-top: 30px;
+}
+
+.sidebar {
+    height: auto;  
+}
+
+.sidebar__menu {
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    border: 1px solid #f1f1f1; 
+}
+
+.sidebar__menu .menu__link {
+    text-decoration: none;
+    color: #333;
+    padding: 15px 0 15px 15px;
+    border-bottom: 1px solid #f1f1f1;
+    display: block;
 }
