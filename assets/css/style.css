@@ -51,11 +51,31 @@ header {
     height: 100%;
 }
 
-.menu__link {
+.navbar__menu .menu__link {
     text-decoration: none;
     color: #333;
 }
 
-.menu__link:hover {
+.navbar__menu .menu__link:hover {
     color: rgb(221, 184, 18);
+}
+
+main {
+    background: red;
+    height: auto;
+}
+
+aside {
+    width: 200px;
+    background: green;
+}
+
+.content {
+    width: 950px;
+    background: gold;
+}
+
+main > .container {
+    align-items: start;
+    padding-top: 30px;
 }
