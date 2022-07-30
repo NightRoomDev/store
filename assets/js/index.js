@@ -8,3 +8,5 @@ function toggle() {
 toggleButton.addEventListener('click', () => {
     console.log(toggle())
 })
+
+console.log('Yes!')
